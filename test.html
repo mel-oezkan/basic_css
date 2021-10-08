@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        /*
+        .test{
+            border: dotted black 3px;
+            display: flex;
+            flex-flow: row wrap;
+            width: 90%;
+            margin: auto;
+        }
+
+        .test > div{
+            border: solid lightgreen 2px;
+            flex: auto;
+            margin: 0.5em;
+        }
+
+        .test > div > img{
+            height: 300px;
+            width: auto;
+        }
+        */
+
+        .test{
+            border: dotted black 3px;
+            width: 90%;
+            margin: auto;
+
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            padding: ;
+            grid-gap: 0.5em;
+        }
+
+        .test > div >img{
+            height: auto;
+            width: 100%;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="test">
+        <div class="nr1"> <img src="bilder/o6.jpg" alt="" height="300px"> </div>
+        <div class="nr2"> <img src="bilder/o7.jpg" alt="" height="300px"> </div>
+        <div class="nr3"> <img src="bilder/o9.jpg" alt="" height="300px"> </div>
+    </div>
+    
+</body>
+</html>
